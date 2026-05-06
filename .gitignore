@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+recruitscore-frontend/node_modules/
+recruitscore-backend/node_modules/
+
+# Environment — NE JAMAIS PUSHER
+.env
+recruitscore-frontend/.env
+recruitscore-frontend/.env.local
+recruitscore-backend/.env
+
+# Build Next.js
+recruitscore-frontend/.next/
+recruitscore-frontend/out/
+
+# Uploads générés
+recruitscore-backend/uploads/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
